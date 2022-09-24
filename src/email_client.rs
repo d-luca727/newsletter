@@ -1,5 +1,4 @@
 use crate::domain::SubscriberEmail;
-use crate::email_request_body::{Content, From, Personalization, RootEmailRequest, To};
 use reqwest::Client;
 use secrecy::{ExposeSecret, Secret};
 
