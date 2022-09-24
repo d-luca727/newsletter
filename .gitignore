@@ -1,1 +1,4 @@
 /target
+/configuration
+configuration/production.yaml
+configuration/base.yaml
