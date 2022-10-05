@@ -1,1 +1,1 @@
-# zero2prod
+# newsletter

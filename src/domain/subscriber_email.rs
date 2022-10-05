@@ -43,7 +43,6 @@ mod tests {
         assert_err!(SubscriberEmail::parse(email));
     }
 
-    // Both `Clone` and `Debug` are required by `quickcheck`
     #[derive(Debug, Clone)]
     struct ValidEmailFixture(pub String);
     impl quickcheck::Arbitrary for ValidEmailFixture {
