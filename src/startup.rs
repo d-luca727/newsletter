@@ -81,7 +81,6 @@ pub fn run(
             .route("/health_check", web::get().to(health_check))
             .route("/subscriptions", web::post().to(subscribe))
             .route("/subscriptions/confirm", web::get().to(confirm))
-            .route("/docs", web::get().to(docs))
             .app_data(db_pool.clone())
             .app_data(email_client.clone())
             .app_data(base_url.clone())
@@ -90,9 +89,4 @@ pub fn run(
     .run();
 
     Ok(server)
-}
-
-async fn docs(_req: HttpRequest) -> Result<NamedFile> {
-    let path: PathBuf = "./static/index.html".parse().unwrap();
-    Ok(NamedFile::open(path)?)
 }
