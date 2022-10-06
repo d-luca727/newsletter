@@ -48,5 +48,5 @@ Launch a (migrated) Postgres database via Docker:
 ./scripts/init_db.sh
 ```
 
-`cargo run` 
+`>cargo run` 
 
