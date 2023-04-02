@@ -1,6 +1,5 @@
 # Newsletter API
-This is a full-fledged Newsletter API containing all the main features for building a sizable and scalable service. It is fully test-driven, every feature implemented is solid, stable and reliable. It has been written in pair programming with the book zero2prod
-
+This is a full-fledged Newsletter API containing all the main features for building a sizable and scalable service. It is fully test-driven, every feature implemented is solid, stable and reliable.
 # How to run it
 
 Add 
